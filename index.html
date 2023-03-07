@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <header id="eventHeader">
+    <div class="textContainer">
+      <h1>InDecor</h1>
+      <p class="p">UM EVENTO PARA REVOLUCIONAR A SUA CRIATIVIDADE</p>
+      <p>Data do evento:</p>
+      <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+    </div>
+
+    <div class="formContainer">
+      <p>Preencha o formulário para receber os detalhes do evento</p>
+      <form class="formDecor">
+        <section class="nameForm">
+          <label for="nameForm">Nome</label>
+          <input type="text" name="name" id="nameForm" placeholder="Digite seu nome">
+          <span class="span-required">Preencha seu nome.</span>
+        </section>
+
+        <section class="emailForm">
+          <label for="emailForm">E-mail</label>
+          <input type="text" name="email" id="emailForm" placeholder="Digite seu melhor e-mail">
+          <span class="span-required">Formato de e-mail incorreto.</span>
+        </section>
+
+        <section class="telForm">
+          <label for="telForm">Telefone</label>
+          <input type="tel" name="tel" id="telForm" maxlength="15" placeholder="Número do Whatsapp">
+          <span class="span-required">Formato de telefone inválido.</span>
+        </section>
+        <section class="interesetForm">
+          <label for="interestSection">Principal interesse</label>
+          <select id="interestSection">
+            <option value="Selecione" disabled selected>Selecione</option>
+            <option value="Apartamentos">Apartamentos</option>
+            <option value="Casas">Casas</option>
+            <option value="Jardins">Jardins</option>
+            <option value="Outro">Outro</option>
+          </select>
+          <span class="span-required">Selecione um interesse</span>
+        </section>
+        <button class="subscribeBtn" type="submit">QUERO ME INSCREVER</button>
+      </form>
+    </div>
+  </header>
+
+  <section class="key-benefits">
+    <header class="benefitsTittle">
+      <h3>O que você vai aprender:</h3>
+    </header>
+    <main class="benefits">
+      <div class="benefit">
+        <img  src="./img/sqr-1.jpg " alt="">
+        <p>Alguma coisa muito legal, que vai fazer a diferença na vida do
+          participante.</p>
+      </div>
+      <div class="benefit">
+        <img  src="./img/sqr-2.jpg" alt="">
+        <p>Alguma coisa muito legal, que vai fazer a diferença na vida do
+          participante.</p>
+      </div>
+      <div class="benefit">
+        <img  src="./img/sqr-3.jpg" alt="">
+        <p>Alguma coisa muito legal, que vai fazer a diferença na vida do
+          participante.</p>
+      </div>
+    </main>
+  </section>
+
+  <section class="local-emphasis">
+    <div class="eventAddres">
+      <i class="bi bi-geo-alt-fill"></i>
+      <div class="addres">
+        <p>Rua do evento, 1333</p>
+        <p>Bairro</p>
+        <p>Abertura: 14h</p>
+      </div>
+    </div>
+    
+    <div class="description">
+      <h1>LOCAL DE DESTAQUE</h1>
+      <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos exemplos de vários ambientes, tanto internos como externos.</p>
+    </div>
+  </section>
+
+  <section class="examples">
+    <div class="example tittle">
+      <img src="./img/hrz-3.jpg" alt="">
+      <h1>Conheça os ambientes que você vai aprender a decorar</h1>
+    </div>
+    <div class="example" id="ex1">
+      <div class="details">
+      <h1>Detalhes</h1>
+      <ul class="detailsList">
+        <li>Posicionamento</li>
+        <li>Aproveitamento de espaço</li>
+        <li>Combinação de cores</li>
+        <li>Organizção</li>
+        <li><strong>E muito mais...</strong></li>
+      </ul>
+    </div>
+      <img src="./img/hrz-4.jpg" alt="">
+    </div>
+
+    <div class="example" id="ex2" >
+      <img src="./img/hrz-5.jpg" alt="">
+      <div class="details" id="e2">
+      <h1>Objetos<h1>
+      <ul class="detailsList">
+        <li>Cadeiras</li>
+        <li>Mesas</li>
+        <li>Espelhos</li>
+        <li>Plantas</li>
+        <li>Cortinas</li>
+        <li><strong>E muito mais...</strong></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <section class="cta">
+    <h3>Gostou? Então se inscreva:</h3>
+    <button>SOLICITAR INSCRIÇÃO</button>
+  </section>
+  <footer class="footer">
+    <h1>InDecor</h1>
+    <p>A evolução da decoração de interiores</p>
+    <p><strong>Entre em contato:</strong> oi@indecor.com.br</p>
+    <p><strong>Ou pelo telefone:</strong> (55) +82 9932-6634</p>
+  </footer>
+</body>
+</div>
+</html>

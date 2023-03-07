@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": 232,
+      "emailInput": true,
+      "telInput": "CALABRESA",
+      "interest": 12341,
+      "id": 2
+    },
+    {
+      "name": "joao",
+      "emailInput": "JOAO@GMAIL.COM",
+      "telInput": 99999999999,
+      "interest": "Casas",
+      "id": 3
+    }
+  ]
+}
